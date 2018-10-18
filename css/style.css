@@ -171,10 +171,6 @@ section.video_works {
 .container.des {
     margin-top: 35px;
 }
-.works-video h1 {
-    margin-bottom: 60px;
-    margin-top: 140px;
-}
 .works-video h2 {
     margin-top: 55px;
 }
@@ -305,6 +301,18 @@ p.nom_dec {
 .row.laureate, .row.experts, .row.partners, .row.video_listing {
     margin-top: 0px !important;
 }
+p.des-video {
+    max-width: 997px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+ul.container.navbar-nav.header__social-nav.vid_work {
+    max-width: 997px;
+    padding: 0;
+}
+.name-works a:focus {
+    color: #fff;
+}
 h5.nom {
     width: 80%;
     margin: 0 auto;
@@ -318,8 +326,12 @@ p.pr_dec {
     margin: 0 auto;
 }
 .partners img {
-    max-width: 300px;
+    max-width: 100%;
     max-height: 225px;
+}
+ul.container.navbar-nav.header__social-nav.vid_work {
+    background: none;
+    border: none;
 }
 .photo-pr.partners {
     max-height: 225px;
@@ -338,7 +350,7 @@ p.pr_dec {
     color: #fff;
 }
 .partners h1 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .videonam {
     overflow: hidden;
@@ -432,7 +444,7 @@ a.read_more_news {
     font-size: 30px;
     text-align: center;
     font-weight: 600;
-    margin-top: 41px;
+    margin-top: 40px;
 }
 
 h3.photo-title {
@@ -444,5 +456,5 @@ h3.photo-title {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-    margin: 70px 0 35px;
+    margin: 40px 0 35px;
 }
