@@ -170,8 +170,7 @@ button.slick-next.slick-arrow {
 }
 .photo__list .slick-slide div {
     max-width: 425px;
-}
-}
+}}
 @media (max-width: 375px){
 .news_tags {
     top: 196px;
@@ -188,7 +187,10 @@ button.slick-next.slick-arrow {
 .photo__list .slick-slide div {
     max-width: 375px;
 }
-}
+.massag {
+    left: 45px;
+    width: 304px;
+}}
 @media (max-width: 320px){
 .massag {
     width: 75%;
@@ -209,5 +211,4 @@ button.slick-prev.slick-arrow {
 }
 button.slick-next.slick-arrow {
     right: 10px;
-}
-}
+}}
