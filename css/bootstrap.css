@@ -214,4 +214,7 @@ button.slick-prev.slick-arrow {
 }
 button.slick-next.slick-arrow {
     right: 10px;
+}
+.name-works a {
+    font-size: 12px;
 }}
