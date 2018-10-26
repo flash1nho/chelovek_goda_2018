@@ -514,7 +514,7 @@ p.nom_dec {
 .row.laureate, .row.experts, .row.partners, .row.video_listing {
     margin-top: 0px !important;
 }
-p.des-video {
+.des-video {
     max-width: 997px;
     margin: 0 auto;
     margin-bottom: 16px;
