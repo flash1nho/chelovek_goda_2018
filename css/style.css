@@ -705,3 +705,14 @@ h3.photo-title {
     text-align: center;
     margin: 40px 0 35px;
 }
+.resent:first-child:nth-last-child(1) {
+        width: 100%;
+}
+.resent:first-child:nth-last-child(2),
+.resent:first-child:nth-last-child(2) ~ .resent {
+        width: 50%;
+}
+.resent:first-child:nth-last-child(3),
+.resent:first-child:nth-last-child(3) ~ .resent {
+        width: 33.3333%;
+}
