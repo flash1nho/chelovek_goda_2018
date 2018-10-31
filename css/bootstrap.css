@@ -1,3 +1,5 @@
+ /*!
+ * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -87,6 +89,7 @@ section.representative.video_listing {
 p.like, p.oko {
     color: #000;
 }
+
 .resent {
     width: 100% !important;
     float: left;
@@ -95,7 +98,7 @@ ul.container.navbar-nav.header__social-nav.photo {
     display: -webkit-inline-box;
     background: none;
     border: none;
-    right: 29px;
+    right: 45px;
     width: 180px;
     top: 0px;
 }
@@ -169,7 +172,7 @@ h5.nom {
 	top: 35%;
 }
 .name-works {
-    width: 90%;
+    width: 100%;
 }
 .col-lg-12.col-xl-7.video_play {
     height: 100%;
@@ -221,6 +224,9 @@ button.slick-next.slick-arrow {
     left: 39px;
     font-size: 11px;
 	}
+	.video-pr img {
+    max-width: 260px;
+}
 .photo__list .slick-slide div {
     max-width: 320px;
 }
