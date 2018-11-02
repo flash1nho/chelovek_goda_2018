@@ -731,3 +731,26 @@ h3.photo-title {
 .resent:nth-child(n+4) {
 		margin-top:20px;
 }
+
+/* Номинанты */
+.nom:first-child:nth-last-child(1) {
+        width: 100%;
+}
+.nom:first-child:nth-last-child(2),
+.nom:first-child:nth-last-child(2) ~ .nom {
+        width: 50%;
+}
+.nom:first-child:nth-last-child(3),
+.nom:first-child:nth-last-child(3) ~ .nom {
+        width: 33.3333%;
+}
+.nom:first-child:nth-last-child(n+4),
+.nom:first-child:nth-last-child(n+4) ~ .nom {
+        width: 25%;
+}
+.nom:nth-child(n+5) {
+		margin-top:20px;
+}
+.nom:nth-last-child(3):nth-child(5) {
+	width: 33.3333%;
+}
