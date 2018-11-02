@@ -12,6 +12,9 @@
 	touch-action:pan-y;
 	-webkit-tap-highlight-color:transparent
 }
+#video1 .slick-list.draggable {
+    width: 100%;
+}
 .slick-list{
 	position:relative;
 	display:block;
